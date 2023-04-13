@@ -2,6 +2,7 @@
   "rebaseWhen": "conflicted",
   "assignees": ["@nold360"],
   "includeForks": true,
+  "forkProcessing": "enabled",
   "extends": [
     "config:base",
     "docker:enableMajor",
