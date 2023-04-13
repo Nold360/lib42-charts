@@ -26,7 +26,6 @@
     "labels": ["pin", "renovate"]
   },
   "pinDigests": true,
-  {
   "postUpgradeTasks": {
     "commands": ["/bin/bash scripts/bump-version.sh charts/{{{depName}}}"],
     "fileFilters": ["Chart.yaml"],
